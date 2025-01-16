@@ -1,0 +1,85 @@
+.promo {
+    margin-bottom: 63px;
+}
+
+.promo-content {
+    display: flex;
+    gap: 24px;
+    padding-top: 68px;
+    padding-left: 120px;
+
+    border-radius: 59px;
+    background-color: #f4f6f5;
+}
+
+.promo-title {
+    max-width: 480px;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 1.25;
+
+    margin-bottom: 40px;
+}
+
+.promo-desc {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: calc(48 / 32);
+    margin-bottom: 32px;
+}
+
+.promo-btn-wrapper {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+
+.promo-btn-wrapper::before {
+    content: '';
+    display: inline-block;
+    
+    width: 190px;
+    height: 32px;
+
+    background-image: url('../../img/icons/decor-yellow.svg');
+}
+
+.promo-btn {
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.5;
+
+    padding: 18px 40px;
+}
+
+.highlight {
+    position: relative;
+    display: inline-block;
+}
+
+.highlight span {
+    position: relative;
+}
+
+.highlight::before {
+    content: '';
+    display: block;
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    left: -30px;
+    right: -160px;
+
+    background-color: #fff;
+    transform: rotate(-2deg);
+}
+
+.highlight--yellow::before {
+    background: var(--yellow);
+    right: -110px;
+}
