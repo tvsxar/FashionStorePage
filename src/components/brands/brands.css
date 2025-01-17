@@ -1,0 +1,10 @@
+.brands {
+    padding: 60px 0 55px;
+    background: var(--yellow);
+}
+
+.brands-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
