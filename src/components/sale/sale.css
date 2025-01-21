@@ -1,0 +1,77 @@
+.sale {
+    margin-bottom: 190px;
+    background: linear-gradient(1deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+}
+
+.sale-section {
+    display: flex;
+    gap: 86px;
+}
+
+.sale-title {
+    font-size: 112px;
+    font-weight: 900;
+    line-height: 1.23;
+
+    max-width: 700px;
+
+    margin-top: 140px;
+    margin-bottom: 33px;
+}
+
+.sale-desc {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -0.721px;
+    max-width: 700px;
+    margin-bottom: 40px;
+}
+
+.sale-date {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.45;
+    letter-spacing: 0.721px;
+}
+
+.sale-terms {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.45;
+    letter-spacing: -0.721px;
+}
+
+.sale-button {
+    margin-top: 51px;
+}
+
+.sale-btn {
+    background-color: #000;
+    border-radius: 7px;
+    color: #fff;
+    padding: 13px 22px 17px;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.highlight {
+    position: relative;
+    display: inline-block;
+}
+
+.highlight::before {
+    content: '';
+    display: block;
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    left: -20px;
+    right: -30px;
+
+    background-color: #fff;
+    transform: rotate(-2deg);
+}

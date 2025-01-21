@@ -1,0 +1,35 @@
+.favourite {
+    margin-bottom: 220px;
+}
+
+.favourite-title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.04;
+    letter-spacing: 2.88px;
+
+    margin-bottom: 118px;
+}
+
+.fav-title {
+    position: relative;
+}
+
+.fav-title::after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 190px;
+    height: 32px;
+    z-index: -1;
+
+    background-image: url('../../img/icons/decor-yellow.svg');
+}
+
+.favourite-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+}
