@@ -46,3 +46,11 @@ a.header-nav-btn {
     font-size: 24px;
     line-height: 1.5;
 }
+
+.header-nav-btn:hover {
+    background-color: #2d2d2d;
+}
+
+.list a:hover {
+    color: #E5C643;
+}

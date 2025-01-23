@@ -1,0 +1,38 @@
+.vouchers {
+    margin-bottom: 200px;
+}
+
+.vouchers-content {
+    padding: 0 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 305px;
+}
+
+.vouchers-text {
+    max-width: 510px;
+}
+
+.vouchers-title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 150%;
+    letter-spacing: 2.88px;
+    margin-bottom: 41px;
+}
+
+.vouchers-desc {
+    color: #7C7C7C;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.46;
+    letter-spacing: -0.96px;    
+    margin-bottom: 65px;
+}
+
+.download-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

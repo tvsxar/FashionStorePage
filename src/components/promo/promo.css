@@ -83,3 +83,7 @@
     background: var(--yellow);
     right: -110px;
 }
+
+.promo-btn:hover {
+    background-color: #2d2d2d;
+}

@@ -11,7 +11,7 @@ function Header() {
                         <span>FASHION</span>
                     </div>
                     <nav className='header-nav'>
-                        <ul>
+                        <ul className='list'>
                             <li><a href='#!'>CATALOGUE</a></li>
                             <li><a href='#!'>FASHION</a></li>
                             <li><a href='#!'>FAVOURITE</a></li>
